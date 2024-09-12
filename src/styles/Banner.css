@@ -1,0 +1,72 @@
+.banner-section {
+    position: relative; /* Allows absolute positioning of children */
+    height: 70vh; /* Adjust the height as needed */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white; /* Ensures text is visible on the banner */
+}
+
+.banner-wrapper {
+  padding: 4vh 2vw ;
+    position: absolute;
+    text-align: start;
+    bottom: 130px;
+    left: 20px; /* Adjust the position as needed */
+    max-width: 600px; /* Optional: Set a max width for content */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.banner-title {
+    font-size: 3rem; /* Adjust the title font size as needed */
+    font-weight: bold;
+    margin-bottom: 1rem; /* Space below the title */
+    position: relative;
+    z-index: 2;
+}
+
+.banner-description {
+    font-size: 1.25rem; /* Adjust the description font size as needed */
+    max-width: 80%; /* Optional: Set a max width for better readability */
+}
+.play-button {
+  background-color: #000000; /* Netflix red */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.play-button:hover {
+  background-color: #000000; /* Darker red for hover effect */
+}
+
+.play-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Optional: Add a focus ring */
+}
+.bg{
+  height: 72vh;
+  opacity: 40%;
+  bottom: 0%;
+  top: 12%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+}

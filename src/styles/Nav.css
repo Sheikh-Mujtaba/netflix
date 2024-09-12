@@ -1,0 +1,17 @@
+.nav-section{
+    padding: 1vh 2vw ;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    font-size: 1rem;
+    gap: 3rem;
+}
+.logo img {
+    width: 100%;
+    max-width: 10rem;
+}
