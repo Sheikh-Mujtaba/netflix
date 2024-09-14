@@ -18,7 +18,7 @@ function App() {
    <Home title="Action Movies" fetchUrl={requests.fetchActionMovies} />
     <Home title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
     <Home title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
-    <Home title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+    {/* <Home title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} /> */}
     <Home title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
       
 

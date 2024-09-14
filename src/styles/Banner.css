@@ -1,6 +1,6 @@
 .banner-section {
     position: relative; /* Allows absolute positioning of children */
-    height: 70vh; /* Adjust the height as needed */
+    height: 80vh; /* Adjust the height as needed */
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -49,6 +49,7 @@
   transition: background-color 0.3s ease;
     position: relative;
     z-index: 2;
+    border: 1px solid white;
 }
 
 .play-button:hover {
@@ -60,7 +61,7 @@
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5); /* Optional: Add a focus ring */
 }
 .bg{
-  height: 72vh;
+  height: 81vh;
   opacity: 40%;
   bottom: 0%;
   top: 12%;

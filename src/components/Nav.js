@@ -20,7 +20,7 @@ import '../styles/Nav.css';
             </div>
 
             <div className='nav-links '>
-                 <p>Login </p>
+                 {/* <p>Login </p> */}
                 {/* <p>Movies</p>
                 <p>My List</p> */}
                 {/* <img src={search} className='w-[10rem]'/> */}
